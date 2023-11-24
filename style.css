@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    font-family: "Poppins", sans-serif;
+    @apply bg-white;
+  }
+  h1 {
+    @apply text-2xl font-bold;
+  }
+  button {
+    @apply bg-orange-500 text-white p-2 rounded-lg;
+  }
+}
+
+@layer components {
+  .btn-primary {
+    @apply text-white hover:bg-orange-600 transition duration-200;
+  }
+}

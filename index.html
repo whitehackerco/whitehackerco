@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="globals.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+    <title>Personal Website</title>
+  </head>
+
+  <body class="bg-black">
+    <main class="max-w-3xl m-10 lg:m-auto lg:my-12 space-y-12">
+      <section class="gap-2 items-center">
+        <div class="flex justify-between items-center">
+          <img
+            src="/public/sana.jpeg"
+            width="80px"
+            height="80px"
+            class="rounded-full"
+          />
+          <div class="ml-5 -space-y-1">
+            <p class="text-white font-semibold">Minatozaki Sana</p>
+            <p class="hover:text-indigo-400 text-white">sana@jyp.com</p>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <h1 class="text-white">
+          Hello everyone, I am a <span id="element"></span>
+        </h1>
+      </section>
+
+      <section>
+        <h2 class="text-white">
+          I am Minatozaki Sana. Everyone used to call me by my nickname "Sana",
+          i love learning something new about programming everyday, no one can
+          stop me for that lol. I wanna make something impactful from technology
+          for our world. Interested to know about me? Let's check my personal
+          info bellow!
+        </h2>
+      </section>
+
+      <section class="grid grid-cols-1 lg:grid-cols-3 gap-2 min-h-[280px]">
+        <div
+          class="border-2 text-white border-navy bg-navy p-6 rounded-3xl col-span-1 lg:row-span-2"
+        >
+          <div class="flex relative flex-col justify-between h-full">
+            <div class="w-50 h-7 bg-green-600 rounded-lg animate-bounce">
+              <p class="text-center">My Work</p>
+            </div>
+            <div><p>More about my work</p></div>
+            <ion-icon
+              class="absolute bottom-0 right-0 w-5 h-5"
+              name="arrow-forward-circle-outline"
+            ></ion-icon>
+          </div>
+        </div>
+
+        <div class="border-x-white bg-white p-6 rounded-3xl">
+          <img src="public/twitter.png" width="200px" height="120px" />
+        </div>
+
+        <div
+          class="border-2 text-white border-zinc-900 bg-zinc-900 p-6 rounded-3xl"
+        >
+          <img src="public/logo.png" width="180px" height="120px" />
+        </div>
+
+        <div
+          class="border-2 border-yellow-200 bg-yellow-200 p-6 rounded-3xl col-span-1 lg:col-span-2"
+        >
+          <div class="text-center">
+            <button id="appreciate" class="btn-primary">Contact me!</button>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <footer class="text-white text-center">
+          Made with love and a lil' bit of stress. &copy;Devscale Indonesia 2023
+        </footer>
+      </section>
+    </main>
+
+    <script type="module" src="main.js"></script>
+  </body>
+</html>
