@@ -4,7 +4,7 @@
 - 💞️ I’m looking to collaborate on no no, not yet hehe, i still need to learn, but i hope i will be programmer soon as possible :)
 - 📫 How to reach me, you guys can email me at munabilac@gmail.com
 - 😄 Pronouns: you can call me anything, i'm fine with it ;)
-- ⚡ Fun fact: I'm funny as hell, (notes: this side of me only go out when you be my close friend) hahaha, so that pretty much it...
+- ⚡ Fun fact: I'm funny as hell og, (notes: this side of me only go out when you be my close friend) hahaha... So that pretty much it guys, let's be coders friends!
 
 <!---
 whitehackerco/whitehackerco is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
